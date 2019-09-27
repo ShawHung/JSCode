@@ -3,5 +3,6 @@
     "editor.fontFamily": "Fira Code",
     "editor.tabSize": 2,
     "vscode_custom_css.imports": [""],
-    "vscode_custom_css.policy": true
+    "vscode_custom_css.policy": true,
+    "git.ignoreLimitWarning": true
 }
