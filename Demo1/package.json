@@ -1,0 +1,25 @@
+{
+  "name": "demo1",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "css-loader": "^3.2.0",
+    "lodash": "^4.17.15",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  },
+  "devDependencies": {
+    "csv-loader": "^3.0.2",
+    "file-loader": "^4.2.0",
+    "xml-loader": "^1.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

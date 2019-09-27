@@ -1,0 +1,7 @@
+{
+    "editor.fontSize": 20,
+    "editor.fontFamily": "Fira Code",
+    "editor.tabSize": 2,
+    "vscode_custom_css.imports": [""],
+    "vscode_custom_css.policy": true
+}
