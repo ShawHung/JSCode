@@ -23,6 +23,7 @@ module.exports = {
       title:"tree Shaking"
     }),
     new webpack.HotModuleReplacementPlugin()
+<<<<<<< HEAD
   ],
   module:{
     rules:[
@@ -35,4 +36,7 @@ module.exports = {
       }
     ]
   }
+=======
+  ]
+>>>>>>> 9181b1f4cc9317ba765f4d60990a44adcb1ddb22
 }
