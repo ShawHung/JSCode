@@ -16,8 +16,8 @@ module.exports = {
   plugins:[
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title:""
-    })
-
+      title:"tree Shaking"
+    }),
+    new webpack.HotModuleReplacementPlugin()
   ]
 }
