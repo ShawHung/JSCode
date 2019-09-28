@@ -9,6 +9,10 @@ module.exports = {
     app:"./src/index.js"
   },
   devtool:"inline-source-map",
+  devServer:{
+    contnetBase:"./dist",
+    hot:true
+  },
   output:{
     name:"[name].bundle.js",
     path:path.resolve(__dirname,"dist")
@@ -16,8 +20,19 @@ module.exports = {
   plugins:[
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title:""
-    })
-
-  ]
+      title:"tree Shaking"
+    }),
+    new webpack.HotModuleReplacementPlugin()
+  ],
+  module:{
+    rules:[
+      {
+        test:/\.css$/,
+        use:[
+          'css-loader',
+          'style-loader'
+        ]
+      }
+    ]
+  }
 }
